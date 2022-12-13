@@ -1,1 +1,2 @@
-export const TwitterSpacesAPIToken = 'Twitter spaces API token';
+export const TwitterSpacesAPIToken =
+	'AAAAAAAAAAAAAAAAAAAAACXyXAEAAAAAeptK7GcAEO%2FmvMMIvb%2Fp9oC5EWw%3DdYmhtXrzIOtH4B0GIYYrjUasbbiRNZ6ggnUyBXu1iJYdeVVtar';

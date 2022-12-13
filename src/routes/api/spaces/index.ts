@@ -7,7 +7,7 @@ import { twitterSpacesAPIService } from '$core/core';
 export const get: RequestHandler = async (request) => {
 	try {
 		const logger: Logger = LoggerUtils.getInstance('SpaceAPIRequestHandler');
-
+		console.log('request', request);
 		const start = performance.now();
 		const search = request.url.searchParams.get('search');
 

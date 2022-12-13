@@ -7,11 +7,11 @@ module.exports = {
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		tsconfigRootDir: __dirname,
-		project: ['./tsconfig.json'],
+		project: ['./tsconfig.json', './tsconfig.eslint.json', './hooks/index.ts'],
 		extraFileExtensions: ['.svelte'],
 		sourceType: 'module',
 		ecmaVersion: 2020,
-	},
+	}, // save
 	rules: {
 		semi: ['error', 'always'],
 		'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],

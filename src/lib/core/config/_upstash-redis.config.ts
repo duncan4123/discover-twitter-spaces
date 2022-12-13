@@ -8,3 +8,4 @@ export default new UpstashRedis({
 	url: UPSTASH_REDIS_URL || '',
 	token: UPSTASH_REDIS_TOKEN || '',
 });
+console.log('dunks: ', UPSTASH_REDIS_TOKEN);

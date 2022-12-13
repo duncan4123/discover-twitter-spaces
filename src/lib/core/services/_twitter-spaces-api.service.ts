@@ -18,6 +18,7 @@ import { Logger, LoggerUtils } from '$utils/_logger';
  * @privateRemarks
  * Author - Navneet Sharma
  */
+
 @singleton()
 export class TwitterSpacesAPIService implements ITwitterSpacesAPIService {
 	private readonly DEFAULT_REDIS_CACHE_TTL = 1 * 60 * 60;
@@ -102,6 +103,7 @@ export class TwitterSpacesAPIService implements ITwitterSpacesAPIService {
 		status: number;
 	}> {
 		const url = `${this.TWITTER_BASE_API_URL}/spaces/search?query=${searchTerm}&${spacesSearchQueryParameters}`;
+		// console.log('url dunks:', url);
 
 		const headers = new Headers();
 		headers.append('Authorization', `Bearer ${this.TWITTER_TOKEN}`);

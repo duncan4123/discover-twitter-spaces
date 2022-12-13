@@ -1,1 +1,2 @@
-export const RedisClientConfigToken = 'Redis client config token';
+export const RedisClientConfigToken =
+	'AZVXASQgYTc2M2I4MjMtODg3My00MGVjLWFhNGYtMWU5MjAxNzNlM2RlMGZkMDFlMTFjOTVkNDA3NGFlYjkwM2UwZDRiNzg2MWU=';
